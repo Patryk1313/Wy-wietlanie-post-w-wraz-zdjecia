@@ -25,7 +25,7 @@
 ?>
 
 <?php 
-    $showImg = mysqli_query($conn, "SELECT source FROM img WHERE ID = post.ID");
+    $showImg = mysqli_query($conn, "SELECT img.source FROM img INNER JOIN posts ON posts.ID = img.posts_ID WHERE img.posts_ID = posts.ID");
     while($row = mysqli_fetch_array($showImg)){
         $img = $row[0];
     }
