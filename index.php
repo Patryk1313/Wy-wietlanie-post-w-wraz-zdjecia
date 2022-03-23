@@ -31,11 +31,17 @@
     }
 ?>
 
-    <section class='post-box'>
+    <div class='post-box'>
         <h1><?php echo $title; ?></h1>
         <p><?php echo $text; ?></p>
-        <img <?php echo "src= '$img'" ?> >
-    </section>
+
+        <div class='gallery'>
+            <img <?php echo "src= '$img'" ?> >
+        </div>
+    </div>
+
+
+    
 
 </body>
 </html>

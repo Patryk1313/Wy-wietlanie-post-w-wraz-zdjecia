@@ -41,5 +41,7 @@ img {
 }
 
 .gallery {
-    background-color: rebeccapurple;
+    width: 100%;
+    height: 220px;
+    margin: 10px 0px;
 }
