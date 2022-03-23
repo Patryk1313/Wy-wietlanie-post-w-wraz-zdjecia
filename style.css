@@ -1,0 +1,45 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.post-box {
+    width: 60%;
+    min-height: 100px;
+    padding:  20px 20px;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.post-box h1 {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: 'Sora', sans-serif;
+}
+
+.post-box  {
+    color: rgb(114, 114, 114);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.gallery {
+    background-color: rebeccapurple;
+}
